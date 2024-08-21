@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    background-color: white;
+    /* background-color: antiquewhite; */
+}
+.navbar img{
+    width: 50px;
+    height: 50px;
+}
+.navbar span{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+  
+    background-color:rgba(225, 219, 219, 0.35)
+}
+.navbar input{
+    width: 90%;
+    align-items: center;
+    border: none;
+    background-color:rgba(225, 219, 219, 0.061)
+}
+.navbar button{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(220, 7, 7);
+    color:white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 400;
+}
+.navbar i:first-child{
+    font-size: 20px;
+    margin: 10px;
+}
+.navbar i{
+    font-size: 30px;
+}
+.img-sec{
+    width: 100%;
+    height: 700px;
+    padding-top: 15vh;
+    background-image: url(./img/download);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20vh;
+    color: white;
+}
+.img-sec img{
+    width: 300px;
+    height: 300px;
+}
+.img-sec h1{
+    font-size: 50px;
+    padding-block: 10px;
+    font-weight: 400;
+}
+.img-sec h4{
+    font-size: 30px;
+    font-weight: 300;
+}
+.img-sec button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(230, 12, 12);
+    color: white;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 200;
+}
+.img-sec button:last-child{
+    background-color: rgba(0, 255, 255, 0.038);
+    border: 1px solid white;
+    margin-left: 0;
+}
+.grid{
+    width: 100%;
+    height: 900px;
+    background-color:rgba(225, 219, 219, 0.35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 20px;
+    
+}
+.grid h3{
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    
+}
+.boxes{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    color: white;
+   
+}
+.boxes h3{
+    font-size: 30px;
+}
+.boxes h5{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+}
+.box1{
+    width:22%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding-inline: 20px;
+    background-color: rgb(235, 20, 20);
+}
+.box1:hover{
+    background-color: darkred;
+}
+.box2:hover{
+    background-color: darkred;
+}
+.box3:hover{
+    background-color: darkred;
+}
+.box2{
+    width:22%;
+    height: 100%;
+    border-radius: 5px;
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 20, 20);
+}
+.boxes:nth-child(4){
+    padding-inline: 40px;
+    width: 80%;
+}
+.box3{
+    width:30%;
+    height: 100%;
+    padding-inline: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(235, 20, 20);
+}
+.grid span{
+    display: flex;
+    align-items: center;
+}
+.grid h6{
+    font-size: 15px;
+    font-weight: 400;
+}
+.grid span h5{
+    font-size: 20px;
+    color: gray;
+    padding-inline: 5px;
+   font-weight: 400; 
+}
+.text-area{
+    width: 100%;
+    height: 1400px;
+    padding-block: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-area h1{
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+.text-sec{
+    width: 100%;
+    height: 300px;
+    display: flex;
+   
+}
+.text-area img{
+    width: 500px;
+    height: 500px;
+}
+.text-sec h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+.text-sec h5{
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(104, 103, 103);
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    padding-inline: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    padding-inline: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text-area button{
+    width: 150px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 20px;
+    background-color: rgb(241, 16, 16);
+}
+.footer-sec{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: black;
+    margin-bottom: 20px;
+
+}
+.footer-sec ul {
+    display: flex;
+}
+.footer-sec ul li{
+    list-style: none;
+    padding: 10px;
+}
+.footer-sec h6{
+   padding: 10px;
+   font-size: 15px;
+   font-weight: 300;
+}
+.footer-sec a{
+    color: green;
+    text-decoration: none;
+}
+
+
+
+/* responsive 768 */
+@media(max-width:768px){
+    .navbar{
+        width: 100%;
+        height: 20vh;
+        align-items: start;
+        justify-content: space-between;
+               
+    }
+    .navbar img{
+        position: fixed;
+        top: 10px;
+        left: 10px;
+    }
+    .navbar button{
+        position: fixed;
+        right: 50px;
+        top: 10px;
+    }
+    .navbar i:last-child{
+       position: fixed;
+       top: 5px;
+       right: 10px;
+    }
+    .navbar span{
+    
+            width: 90%;
+            height: 30px;
+            position: fixed;
+            top: 60px;
+            left: 5%;
+        
+    }
+    .navbar button{
+        width: 100px;
+    }
+    .img-sec{
+        width: 100%;
+        height: auto;
+    }
+    .grid{
+        width: 100%;
+        height: auto;
+    }
+    .boxes{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+      
+    }
+    .boxes:nth-child(4){
+        width: 100%;
+        padding: 0;
+    }
+    .box1{
+        width: 95%;
+        height: 200px;
+        margin: 10px;
+    }
+    .box2{
+        width: 95%;
+        height: 200px;
+        margin: 10px;
+    }
+    .box3{
+        width: 95%;
+        height: 200px;
+        margin: 10px;
+    }
+    .grid span{
+        flex-wrap: wrap;
+        padding:10px;
+        justify-content: center;
+    }
+    .grid h6{
+        font-size: 15px;
+        /* flex-wrap: wrap; */
+        /* justify-content: center; */
+    }
+    .grid h5{
+        font-size: 15px;
+        /* flex-wrap: wrap; */
+    }
+    .text-area{
+        width: 100%;
+        height: auto;
+    }
+    .text-sec{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .text-sec:nth-child(2){
+        flex-direction: column-reverse;
+    }
+    .text-sec:nth-child(4){
+        flex-direction: column-reverse;
+    }
+    .left {
+        width: 100%;
+        height: 250px;
+        align-items: center;
+    }
+    .right{
+        width: 100%;
+        height: 250px;
+        align-items: center;
+    }
+}
+
+
+/* responsive 480 */
+@media(max-width:480px){
+    .img-sec{
+        width: 100%;
+        height: auto;
+    }
+    .img-sec img{
+        width: 150px;
+        height: 150px;
+        margin-top: 40px;
+    }
+    .img-sec h1{
+        font-size: 40px;
+    }
+    .img-sec h4{
+        font-size: 25px;
+        text-align: center;
+    }
+    .img-sec button{
+        width: 120px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .text-area h1{
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    .text-sec img{
+        width: 250px;
+        height: 250px;
+    }
+    .left{
+        padding: 10px;
+    }
+    .right{
+        padding: 10px;
+    }
+    .footer-sec ul{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .footer-sec h6{
+        font-size: 10px;
+    }
+}
